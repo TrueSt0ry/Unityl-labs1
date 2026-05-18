@@ -826,11 +826,10 @@ Transform:
   m_GameObject: {fileID: 64092552}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6956482, y: 0.9868984, z: 2.5048516}
+  m_LocalPosition: {x: -2.696, y: 1.53, z: 0}
   m_LocalScale: {x: 0.27015403, y: 7.641122, z: 1.826637}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1171615045}
+  m_Children: []
   m_Father: {fileID: 929641058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &64092554
@@ -852,8 +851,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.20798998
+  m_Center: {x: -0.0064389263, y: 0, z: 0}
 --- !u!23 &64092555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -915,7 +914,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64092552}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 9.67
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -929,7 +928,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10927,6 +10926,7 @@ Transform:
   m_Children:
   - {fileID: 408539722}
   - {fileID: 1475511496}
+  - {fileID: 1171615045}
   - {fileID: 64092553}
   - {fileID: 1228947872}
   - {fileID: 1735350501}
@@ -13123,11 +13123,11 @@ Transform:
   m_GameObject: {fileID: 1171615044}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.006100036, y: -1.5159547, z: -7.648929}
-  m_LocalScale: {x: 0.76943576, y: 0.92416, z: 0.29743737}
+  m_LocalPosition: {x: -2.6940002, y: -10.596697, z: -13.971818}
+  m_LocalScale: {x: 0.20786618, y: 7.0616198, z: 0.54331017}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 64092553}
+  m_Father: {fileID: 929641058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1171615046
 CapsuleCollider:
@@ -13144,7 +13144,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -19303,7 +19303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf61a96d05d66a4281f18412a94dd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: -10
+  thrust: -5
   rb: {fileID: 0}
 --- !u!54 &1735350497
 Rigidbody:
@@ -19330,7 +19330,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!65 &1735350498
 BoxCollider:
@@ -19351,8 +19351,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0139465, y: 3.0057542, z: 0.9999998}
+  m_Center: {x: -0.0069732666, y: 0.0000002920509, z: 0}
 --- !u!23 &1735350499
 MeshRenderer:
   m_ObjectHideFlags: 0

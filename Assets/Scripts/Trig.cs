@@ -2,18 +2,27 @@ using UnityEngine;
 
 public class Trig : MonoBehaviour
 {
-  //  private float speed = 2f;
+    private Rigidbody rb;
 
-    //Moves this GameObject 2 units a second in the forward direction
-    void Update()
+    void Start()
     {
-     //   transform.Translate(Vector3.down * Time.deltaTime * speed);
+        // Получаем компонент Rigidbody текущего объекта
+        rb = GetComponent<Rigidbody>();
+
+        // На всякий случай убедимся, что изначально гравитация выключена
+        if (rb != null)
+        {
+            rb.useGravity = false;
+        }
+        else
+        {
+            Debug.LogError("На объекте отсутствует компонент Rigidbody!");
+        }
     }
 
- 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.attachedRigidbody)
-            other.attachedRigidbody.useGravity = true;
+        // При первом же столкновении включаем гравитацию
+            rb.useGravity = true;
     }
 }
