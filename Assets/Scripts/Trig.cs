@@ -2,17 +2,18 @@ using UnityEngine;
 
 public class Trig : MonoBehaviour
 {
-    private float speed = 2f;
+  //  private float speed = 2f;
 
     //Moves this GameObject 2 units a second in the forward direction
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
+     //   transform.Translate(Vector3.down * Time.deltaTime * speed);
     }
 
-    //Upon collision with another GameObject, this GameObject will reverse direction
+ 
     private void OnTriggerEnter(Collider other)
     {
-        speed = speed * -10;
+        if (other.attachedRigidbody)
+            other.attachedRigidbody.useGravity = true;
     }
 }
