@@ -276,8 +276,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 276
-    y: 87
+    x: 1
+    y: 24
     width: 1160
     height: 706
   m_SerializedDataModeController:
@@ -778,7 +778,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1012.3267, y: 411.88144, z: 0.020496175}
+    m_Target: {x: 1010.19116, y: 410.00806, z: 0.080415845}
     speed: 2
     m_Value: {x: 1012.3267, y: 411.88144, z: 0.020496175}
   m_RenderMode: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.074626
+    m_Target: 4.08267
     speed: 2
     m_Value: 10.074626
   m_Ortho:
@@ -887,8 +887,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 87
+    x: 0
+    y: 24
     width: 274
     height: 906
   m_SerializedDataModeController:
@@ -905,8 +905,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70b70000
-      m_LastClickedID: 46960
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 06fbffff70b70000feb90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1026,8 +1026,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 276
-    y: 819
+    x: 1
+    y: 756
     width: 1160
     height: 174
   m_SerializedDataModeController:
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000e2bd0000e4bd0000e6bd0000
+    m_ExpandedIDs: 00000000e2bd0000e4bd0000e6bd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1438
-    y: 87
+    y: 24
     width: 480
     height: 906
   m_SerializedDataModeController:
